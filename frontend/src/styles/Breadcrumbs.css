@@ -1,0 +1,35 @@
+.breadcrumbs-container {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+}
+
+.breadcrumbs-item {
+    display: inline-block;
+    position: relative;
+}
+
+.breadcrumbs-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.breadcrumbs-item::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transition: transform 0.25s ease-out;
+    transform-origin: bottom center;
+}
+
+.breadcrumbs-item:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}

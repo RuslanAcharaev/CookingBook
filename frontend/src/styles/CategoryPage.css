@@ -1,0 +1,14 @@
+.recipe-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.recipe-list a {
+    text-decoration: none;
+    width: 100%;
+}

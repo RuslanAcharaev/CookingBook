@@ -1,0 +1,16 @@
+.homepage-container h2 {
+    margin-bottom: 15px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.category-list a {
+    text-decoration: none;
+}
