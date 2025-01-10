@@ -60,7 +60,6 @@ Project/
 1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/RuslanAcharaev/CookingBook.git
-cd backend
 ```
 2. Установите виртуальное окружение и зависимости:
 ```bash
